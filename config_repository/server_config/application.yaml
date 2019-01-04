@@ -1,0 +1,16 @@
+# Port and URI configuration of configuration server
+# Git repo properties
+user:
+  home: AnimusAm
+
+
+# Cloud Config Server App properties
+---
+server:
+  port: 8888
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///${user.home}/konfig_knife/
