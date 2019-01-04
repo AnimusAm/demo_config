@@ -13,4 +13,4 @@ spring:
     config:
       server:
         git:
-          uri: file:///${user.home}/konfig_knife/
+          uri: file:///${user.home}/konfig_knife/config_repository/server_config/application.yaml
