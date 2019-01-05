@@ -4,8 +4,6 @@ spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/devtest
-    username:
-    password:
   jpa:
     hibernate.ddl-auto: validate
     generate-ddl: true
