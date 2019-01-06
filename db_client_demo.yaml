@@ -5,7 +5,8 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/devtest
   jpa:
-    hibernate.ddl-auto:
+    hibernate:
+      ddl-auto:
     show-sql: true
     properties:
       hibernate:
