@@ -1,0 +1,15 @@
+
+# DB connecting properties
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/devtest
+  jpa:
+    hibernate:
+      ddl-auto:
+    show-sql: true
+    properties:
+      hibernate:
+        id:
+          new_generator_mappings: false
+
