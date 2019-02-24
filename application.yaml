@@ -1,9 +1,6 @@
-
 # Discovery service instances (currently only one) valid and used for all applications
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8100/eureka/
-
-
 
